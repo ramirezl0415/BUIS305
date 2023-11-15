@@ -7,11 +7,11 @@ elif number1 % 5 == 0:
     print(number1, 'Tac')
 i = 1
 while i <= 20:
-    if number1 % 3 == 0 and number1 % 5 == 0:
+    if i % 3 == 0 and number1 % 5 == 0:
         print(i, 'Tic Tac')
-    elif number1 % 3 == 0:
+    elif i % 3 == 0:
         print(i, 'Tic')
-    elif number1 % 5 == 0:
+    elif i % 5 == 0:
         print(i, 'Tac')
     i += 1
 
